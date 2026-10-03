@@ -20,7 +20,7 @@ class CurrencyConverter:
 
 # Driver code
 if __name__ == "__main__":
-    YOUR_ACCESS_KEY = "594a270cb23a9179b2d896ea3759e5c4"
+    YOUR_ACCESS_KEY = "Your API key here"
     url = f"http://data.fixer.io/api/latest?access_key={YOUR_ACCESS_KEY}"
     
     converter = CurrencyConverter(url)
